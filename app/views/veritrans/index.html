@@ -1,0 +1,7 @@
+<%= payment_service_for '12345', 'M021176',
+           amount: '2000',
+           service: :veritrans,
+           test: true,
+           server_key: Rails.configuration.offsite_payments['veritrans']['password1'] do |s| %>
+  <%= submit_tag "Pay!", style: 'padding-bottom: 3px;' %>
+<% end %>

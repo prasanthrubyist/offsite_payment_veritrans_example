@@ -1,0 +1,8 @@
+development:
+  veritrans:
+      server_key: 'test'
+      client_key: 'test'
+test:
+  veritrans:
+    server_key: 'test'
+    client_key: 'test'
